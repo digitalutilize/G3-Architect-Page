@@ -1,0 +1,99 @@
+@media screen and (max-width:576px) {
+    .header-container{
+        width: 90%;
+    }
+
+    nav{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav h1{
+        text-align: center;
+    }
+
+    nav ul{
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .banner-content{
+        width: 90%;
+    }
+
+}
+
+@media screen and (min-width:576.01px) and (max-width:768px) {
+    .header-container{
+        width: 85%;
+    }
+
+    nav{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav h1{
+        text-align: center;
+    }
+
+    nav ul{
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .banner-content{
+        width: 90%;
+    }
+
+}
+
+@media screen and (min-width:769px) and (max-width:992px) {
+    .header-container{
+        width: 80%;
+    }
+
+    nav{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav h1{
+        text-align: center;
+    }
+
+    nav ul{
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .banner-content{
+        width: 95%;
+    }
+
+}
+
+@media screen and (min-width:993px) and (max-width:1200px) {
+    .header-container{
+        width: 80%;
+    }
+
+    nav{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav h1{
+        text-align: center;
+    }
+
+    nav ul{
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .banner-content{
+        width: 85%;
+    }
+
+}
