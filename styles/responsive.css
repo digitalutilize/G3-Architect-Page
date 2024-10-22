@@ -193,6 +193,24 @@
         flex-direction: column;
         gap: 20px;
     }
+
+    .sponsor > p{
+        width: 90%;
+    }
+
+    .sponsor-image{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sponsor-image img{
+        width: 60%;
+        margin-bottom: 30px;
+    }
+
+    footer > p{
+        padding: 40 20px;
+    }
     
 
 }
