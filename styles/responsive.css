@@ -21,6 +21,30 @@
         width: 90%;
     }
 
+    .main-container{
+        width: 90%;
+    }
+
+    .team{   
+        flex-direction: column;
+    }
+
+    .team-image{
+        width: 100%;
+    }
+
+    .team-content{
+        width: 100%;
+        text-align: center;
+    }
+
+    .team-content p{
+        width: 90%;
+        margin:0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
 }
 
 @media screen and (min-width:576.01px) and (max-width:768px) {
@@ -44,6 +68,30 @@
 
     .banner-content{
         width: 90%;
+    }
+    
+    .main-container{
+        width: 85%;
+    }
+
+    .team{   
+        flex-direction: column;
+    }
+
+    .team-image{
+        width: 100%;
+    }
+
+    .team-content{
+        width: 100%;
+        text-align: center;
+    }
+
+    .team-content p{
+        width: 90%;
+        margin:0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
 }
@@ -71,6 +119,30 @@
         width: 95%;
     }
 
+    .main-container{
+        width: 80%;
+    }
+
+    .team{   
+        flex-direction: column;
+    }
+
+    .team-image{
+        width: 100%;
+    }
+
+    .team-content{
+        width: 100%;
+        text-align: center;
+    }
+
+    .team-content p{
+        width: 90%;
+        margin:0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
 }
 
 @media screen and (min-width:993px) and (max-width:1200px) {
@@ -94,6 +166,30 @@
 
     .banner-content{
         width: 85%;
+    }
+
+    .main-container{
+        width: 80%;
+    }
+
+    .team{   
+        flex-direction: column;
+    }
+
+    .team-image{
+        width: 100%;
+    }
+
+    .team-content{
+        width: 100%;
+        text-align: center;
+    }
+
+    .team-content p{
+        width: 85%;
+        margin:0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
 }
