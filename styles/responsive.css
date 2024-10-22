@@ -45,6 +45,33 @@
         margin-bottom: 20px;
     }
 
+    .feature{
+        flex-direction: column;
+        width: 90%;
+        margin:0 auto;
+    }
+
+    .feature-content{
+        width: 100%;
+    }
+
+    .feature-content > h1, .feature-content > p {
+        width: 100%;
+    }
+
+    .feature-content > p{
+        margin: 20px 0px;
+    }
+
+    .feature-card{
+        width: 90%;
+    }
+
+    .feature-image{
+        width: 100%;
+        margin-top: 50px;
+    }
+
 }
 
 @media screen and (min-width:576.01px) and (max-width:768px) {
@@ -92,6 +119,33 @@
         margin:0 auto;
         margin-top: 20px;
         margin-bottom: 20px;
+    }
+
+    .feature{
+        flex-direction: column;
+        width: 85%;
+        margin:0 auto;
+    }
+
+    .feature-content{
+        width: 100%;
+    }
+
+    .feature-content > h1, .feature-content > p {
+        width: 100%;
+    }
+
+    .feature-content > p{
+        margin: 20px 0px;
+    }
+
+    .feature-card{
+        width: 90%;
+    }
+
+    .feature-image{
+        width: 100%;
+        margin-top: 50px;
     }
 
 }
@@ -143,6 +197,33 @@
         margin-bottom: 20px;
     }
 
+    .feature{
+        flex-direction: column;
+        width: 80%;
+        margin:0 auto;
+    }
+
+    .feature-content{
+        width: 100%;
+    }
+
+    .feature-content > h1, .feature-content > p {
+        width: 100%;
+    }
+
+    .feature-content > p{
+        margin: 20px 0px;
+    }
+
+    .feature-card{
+        width: 90%;
+    }
+
+    .feature-image{
+        width: 100%;
+        margin-top: 50px;
+    }
+
 }
 
 @media screen and (min-width:993px) and (max-width:1200px) {
@@ -192,4 +273,105 @@
         margin-bottom: 20px;
     }
 
+    .feature{
+        flex-direction: column;
+        width: 80%;
+        margin:0 auto;
+    }
+
+    .feature-content{
+        width: 100%;
+    }
+
+    .feature-content > h1{
+        width: 100%;
+    }
+
+    .feature-content > p{
+        margin: 20px 0px;
+    }
+
+    .feature-card{
+        width: 90%;
+    }
+
+    .feature-image{
+        width: 100%;
+        margin-top: 50px;
+    }
+}
+
+@media screen and (min-width:1201px) and (max-width:1400px) {
+    .header-container{
+        width: 80%;
+    }
+
+    nav{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav h1{
+        text-align: center;
+    }
+
+    nav ul{
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .banner-content{
+        width: 85%;
+    }
+
+    .main-container{
+        width: 80%;
+    }
+
+    .team{   
+        flex-direction: column;
+    }
+
+    .team-image{
+        width: 100%;
+    }
+
+    .team-content{
+        width: 100%;
+        text-align: center;
+    }
+
+    .team-content p{
+        width: 85%;
+        margin:0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .feature{
+        flex-direction: column;
+        width: 80%;
+        margin:0 auto;
+    }
+
+    .feature-content{
+        width: 100%;
+    }
+
+    .feature-content > h1{
+        width: 100%;
+    }
+
+    .feature-content > p{
+        margin: 20px 0px;
+    }
+
+    .feature-card{
+        width: 90%;
+    }
+
+    .feature-image{
+        width: 100%;
+        margin-top: 50px;
+    }
 }
