@@ -69,7 +69,20 @@
 
     .feature-image{
         width: 100%;
-        margin-top: 50px;
+        margin: 50px 0;
+    }
+
+    .fact{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .fact > p{
+        width: 90%;
+    }
+
+    .fact-card{
+        flex-direction: column;
+        gap: 20px;
     }
 
 }
@@ -145,7 +158,21 @@
 
     .feature-image{
         width: 100%;
-        margin-top: 50px;
+        margin: 50px 0;
+    }
+
+    .fact{
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .fact > p{
+        width: 90%;
+    }
+
+    .fact-card{
+        flex-direction: column;
+        gap: 20px;
     }
 
 }
@@ -221,7 +248,22 @@
 
     .feature-image{
         width: 100%;
-        margin-top: 50px;
+        margin: 50px 0;
+    }
+
+    .fact{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .fact > p{
+        width: 80%;
+    }
+
+    .fact-card{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
     }
 
 }
@@ -297,7 +339,22 @@
 
     .feature-image{
         width: 100%;
-        margin-top: 50px;
+        margin: 50px 0;
+    }
+
+    .fact{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .fact > p{
+        width: 90%;
+    }
+
+    .fact-card{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
     }
 }
 
@@ -372,6 +429,21 @@
 
     .feature-image{
         width: 100%;
-        margin-top: 50px;
+        margin: 50px 0;
+    }
+
+    .fact{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .fact > p{
+        width: 80%;
+    }
+
+    .fact-card{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
     }
 }
